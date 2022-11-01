@@ -1,0 +1,68 @@
+/*Settings*/
+:root{
+    --bg-primary:#2D4A22;
+    --bg-color:#F0F2F5;
+    --bg-secondary:#49AA26;
+    --text:#969CB2;
+    --text-green:#49aa26;
+    --text-red:#E92929;
+    --main-title:#363F5F;
+    --title:#969CB2;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+/*titles*/
+h2{
+    margin-top: 3.2rem;
+    margin-bottom: 0.8rem;
+    color: var(--main-title);
+}
+
+#balance h2{
+    color:#fff;
+    margin-top:0;
+}
+
+.card h3{
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.card span{
+    font-size: 2rem;
+    line-height: 3rem;
+    margin-top: 1rem;
+}
+
+/*Layout*/
+body{
+    background-color:var(--bg-color)
+}
+
+header{
+    background-color: var(--bg-primary);
+    color: #fff;
+    padding: 2rem 0 10rem;
+}
+
+#balance{
+    margin-top: -8rem;
+}
+
+.card{
+    padding:1.5rem 2rem;
+    margin-bottom: 2rem;
+    border-color: transparent;
+    color: var(--main-title);
+}
+
+.card.green{
+    background-color: var(--bg-secondary);
+    color: #fff;
+}
+
+
+
